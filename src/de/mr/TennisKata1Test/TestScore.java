@@ -15,5 +15,6 @@ public class TestScore {
 		score.increasePointsB();
 		Assert.assertEquals(30, score.getPointsA());
 		Assert.assertEquals(15, score.getPointsB());
+		
 	}
 }
