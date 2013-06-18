@@ -1,9 +1,10 @@
 package de.mr.TennisKata1Test;
 
-import static org.junit.Assert.*;
 import junit.framework.Assert;
 
 import org.junit.Test;
+
+import de.mr.TennisKata1.Score;
 
 public class TestScore {
 
