@@ -13,7 +13,6 @@ public class TestRules {
 	public void testPlayerWinsBall() {
 		Rules rules = new Rules();
 		rules.playerAWinsBall();
-		Assert.assertFalse(rules.gameOver());
 		Assert.assertEquals(15, rules.getScore().getPointsA());
 		Assert.assertEquals(0, rules.getScore().getPointsB());
 	}
